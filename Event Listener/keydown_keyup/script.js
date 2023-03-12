@@ -5,6 +5,8 @@ document.addEventListener("keydown", function (e) {
   display.innerText = e.key + " is keyDown";
 });
 
+
+
 // adding a keyup event listener to the document
 document.addEventListener("keyup", function (e) {
   display.style.color = "green";
