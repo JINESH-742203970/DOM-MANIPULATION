@@ -1,4 +1,4 @@
 const BoxElement=document.getElementById("box");
-BoxElement.addEventListener("click",function(){
+BoxElement.addEventListener("mouseOver",function(){
     alert("You Just Clicked Me");
     });
